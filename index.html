@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>CAOS - 2 Jugadores</title>
+
+    <link
+        rel="stylesheet"
+        href="estilo.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- =========================
+         MENÚ PRINCIPAL
+    ========================= -->
+
+    <div class="menu" id="menu">
+
+        <!-- LOGO GOCHISOFT -->
+        <img
+            src="img/soft.jpg"
+            alt="GOCHISOFT"
+            class="logo-gochisoft"
+        >
+
+
+        <h1>💥 COINORBIT</h1>
+
+        <h2>2 JUGADORES</h2>
+
+
+        <div class="controles">
+
+            <div>
+
+                <h3>🔵 Jugador 1</h3>
+
+                <p>W A S D</p>
+
+            </div>
+
+
+            <div>
+
+                <h3>🔴 Jugador 2</h3>
+
+                <p>⬆️ ⬅️ ⬇️ ➡️</p>
+
+            </div>
+
+        </div>
+
+
+        <button id="iniciar">
+            COMENZAR
+        </button>
+
+
+        <!-- CONTACTOS -->
+
+        <div class="contactos">
+
+            <h2>CONTACTOS</h2>
+
+            <p>
+                Síguenos en nuestras redes sociales
+            </p>
+
+
+            <div class="redes">
+
+                <a
+                    href="https://www.instagram.com/softubi_games?stkn=MWQyYjJsOW5wYWIydA=="
+                    target="_blank"
+                >
+                    📸 Instagram
+                </a>
+
+
+                <a
+                    href="https://www.tiktok.com/@softubigames?_r=1&_t=ZT-9AAkyaCgS2n"
+                    target="_blank"
+                >
+                    🎵 TikTok
+                </a>
+
+            </div>
+
+
+            <p class="copyright">
+                © 2026 Tu empresa de videojuegos
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         JUEGO
+    ========================= -->
+
+    <div
+        class="juego"
+        id="juego"
+    >
+
+        <div class="marcador">
+
+            <div class="jugador1">
+
+                🔵 J1
+
+                <span id="puntos1">
+                    0
+                </span>
+
+                <span id="vida1">
+                    ❤️❤️❤️
+                </span>
+
+            </div>
+
+
+            <div class="tiempo">
+
+                ⏱️
+
+                <span id="tiempo">
+                    120
+                </span>
+
+            </div>
+
+
+            <div class="jugador2">
+
+                🔴 J2
+
+                <span id="puntos2">
+                    0
+                </span>
+
+                <span id="vida2">
+                    ❤️❤️❤️
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div id="arena"></div>
+
+
+        <div
+            class="mensaje"
+            id="mensaje"
+        ></div>
+
+
+        <button
+            class="reiniciar"
+            id="reiniciar"
+        >
+            🔄 JUGAR OTRA VEZ
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
